@@ -1,0 +1,27 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_srcKuid_": "19004e5096d742fba2a69255d2633e25",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "context": {},
+    "dataDiffs": {
+        "id": "cordovaBrowser"
+    },
+    "id": "cordovaBrowser",
+    "instanceOf": "19004e5096d742fba2a69255d2633e25",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m6c3b0353537490796e5054a43247bfc",
+    "masterInstance": true,
+    "name": "kony.ui.CordovaBrowser",
+    "parent": "flexHdr1",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "m2a9fa74078941cd9220a95b223e3139",
+    "wType": "CordovaBrowser"
+}

@@ -1,0 +1,39 @@
+{
+    "AS_Segment_b45f50ec4cec4696aa7ccc244dcd56c3": {
+        "id": "AS_Segment_b45f50ec4cec4696aa7ccc244dcd56c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "masterTypesOfPlaces",
+            "type": "masters",
+            "KUID": "021ed6f61d4b40ccb71d69abb3a24234"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___eea6e9b21505452e8b2042677f7c28e1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createPinImage",
+            "display": "createPinImage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___ab3454f741c1481eb592629406271981",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initializeMobileFabric",
+            "display": "initializeMobileFabric",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

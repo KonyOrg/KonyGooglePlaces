@@ -1,0 +1,11 @@
+{
+  "background_image": "btn_close_left.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s148106c0a2641588459bba9f157ead7",
+  "wType": "FlexContainer"
+}

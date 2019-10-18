@@ -1,0 +1,36 @@
+{
+    "AS_Label_83df6878e5014f68863d515cd82e96b7": {
+        "id": "AS_Label_83df6878e5014f68863d515cd82e96b7",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionGlobalSettings",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "931128c21a6b4843973bf04294d2eeb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9267e69c80af4d63885ceaf285b1b038",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "globalSettings",
+            "display": "globalSettings",
+            "inputparams": [{
+                "name": "eventObject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

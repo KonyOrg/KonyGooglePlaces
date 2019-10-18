@@ -1,0 +1,48 @@
+{
+    "AS_Image_6154e11a895d4568897df37b64a65ae2": {
+        "id": "AS_Image_6154e11a895d4568897df37b64a65ae2",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionShowEditKeywords",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b52d26f116d54eb9a08f2ba05d373ec6"
+        },
+        "sourceObj": {
+            "itemKUID": "021ed6f61d4b40ccb71d69abb3a24234",
+            "widgetKUID": "28596d8800af4cd4b34dcbe76529d2d0",
+            "evt": "onTouchEnd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___02bc729a8e254d9c871664ceaaca4d71",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showEditKeywordsLayer",
+            "display": "showEditKeywordsLayer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAMED_ACTION____4c604218ac99400f870285c47038b382",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Image_15777e23d27342d19472866f826de1b3",
+            "display": "AS_Image_15777e23d27342d19472866f826de1b3",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

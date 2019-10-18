@@ -1,0 +1,16 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "KonyGooglePlaces",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "GooglePlaces",
+    "version" : "1.0",
+    "etag" : "827c8bdc-931d-41c8-9da9-e28535d5dc52"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "GooglePlacesComposite",
+    "version" : "1.0",
+    "etag" : "6d220458-8634-4df1-8008-52a680ec60ff"
+  } ]
+}

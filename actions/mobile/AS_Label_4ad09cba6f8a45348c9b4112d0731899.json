@@ -1,0 +1,46 @@
+{
+    "AS_Label_4ad09cba6f8a45348c9b4112d0731899": {
+        "id": "AS_Label_4ad09cba6f8a45348c9b4112d0731899",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "931128c21a6b4843973bf04294d2eeb1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____853436a5348a4332944c5dfc886aad20",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Label_83df6878e5014f68863d515cd82e96b7",
+            "display": "actionGlobalSettings",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject",
+                "value": " eventobject"
+            }, {
+                "datatype": "string",
+                "name": "x",
+                "value": ""
+            }, {
+                "datatype": "string",
+                "name": "y",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "isMasterInstanceAction": null
+        }]
+    }
+}

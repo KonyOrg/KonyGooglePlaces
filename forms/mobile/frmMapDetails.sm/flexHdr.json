@@ -1,0 +1,56 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s96ab0b5befc4885a03b0561a057e44c",
+    "_srcKuid_": "m4aff989aad0448ca21e2f1fa7a99f27",
+    "canUpdateUI": true,
+    "children": [
+        "imgSettings",
+        "imgLogo",
+        "btnSettingsSave"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": {
+            "type": "string",
+            "value": "50dp"
+        },
+        "id": "flexHdr",
+        "layoutType": 2,
+        "left": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "snapGridSize": 10,
+        "snapToGrid": true,
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
+    "id": "flexHdr",
+    "instanceOf": "m4aff989aad0448ca21e2f1fa7a99f27",
+    "isTopFlexInstance": true,
+    "isvisible": true,
+    "kuid": "m1385ece09984d05bd38940ce4bca548",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexMain",
+    "pf": "frmMapDetails",
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "FlexContainer"
+}

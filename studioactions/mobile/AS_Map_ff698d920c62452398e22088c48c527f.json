@@ -1,0 +1,27 @@
+{
+    "AS_Map_ff698d920c62452398e22088c48c527f": {
+        "id": "AS_Map_ff698d920c62452398e22088c48c527f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b52d26f116d54eb9a08f2ba05d373ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d26ebe915e874b228684888e30d0819f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "gblLocationDataForSelectedPin = location;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

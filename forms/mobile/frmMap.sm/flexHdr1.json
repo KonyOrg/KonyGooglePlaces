@@ -1,0 +1,36 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s96ab0b5befc4885a03b0561a057e44c",
+    "_srcKuid_": "m4a1bc870e3a4590a522d4039fab3cbc",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "children": [
+        "imgLogo",
+        "imgSettings",
+        "cordovaBrowser"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flexHdr1"
+    },
+    "id": "flexHdr1",
+    "instanceOf": "m4a1bc870e3a4590a522d4039fab3cbc",
+    "isTopFlexInstance": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m2a9fa74078941cd9220a95b223e3139",
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexMain",
+    "pf": "frmMap",
+    "vizProps": {
+        "hidewidgethierarchy": true
+    },
+    "wType": "FlexContainer"
+}

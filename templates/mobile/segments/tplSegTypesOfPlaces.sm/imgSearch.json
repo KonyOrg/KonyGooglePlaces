@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_skin_": "s1a9133d390b40e19d44473e00e0ba7b",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s93a69371b764b3a8e34ee9cfaa497f9"
+    },
+    "displaytext": false,
+    "id": "imgSearch",
+    "ide_onClick": "AS_Button_ade9b188edc948b1b55b947fa7b3b4ae",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e048ee79d4cb4c7fa1dd0173f5f59e4d",
+    "name": "kony.ui.Button",
+    "parent": "flexSegTypesOfPlaces",
+    "pf": "tplSegTypesOfPlaces",
+    "wType": "Button",
+    "zindex": 1
+}

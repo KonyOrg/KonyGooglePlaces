@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_c125ccec3ad14a5996e15091203526ae": {
+        "id": "AS_FlexContainer_c125ccec3ad14a5996e15091203526ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "masterTypesOfPlaces",
+            "type": "masters",
+            "KUID": "021ed6f61d4b40ccb71d69abb3a24234"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c199bde04a0e47fb95a4ab97460ba578",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeAnimationForFlexTypesOfPlaces",
+            "display": "closeAnimationForFlexTypesOfPlaces",
+            "inputparams": [{
+                "name": "flag"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

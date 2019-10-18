@@ -1,0 +1,49 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sed5ec8984284bb58e4e002e086c88e4",
+    "_srcKuid_": "2318233da05d4ae0a45e34b2f02342f9",
+    "canUpdateUI": true,
+    "context": {},
+    "dataDiffs": {
+        "centerX": {
+            "type": "string",
+            "value": "50%"
+        },
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "id": "imgLogo",
+        "imageScaleMode": 1,
+        "src": "konylogo.png",
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "128dp"
+        },
+        "zIndex": 1
+    },
+    "id": "imgLogo",
+    "instanceOf": "2318233da05d4ae0a45e34b2f02342f9",
+    "isvisible": true,
+    "kuid": "mdcc0dc1b89245b8ab409de4870d0314",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flexHdr",
+    "pf": "frmMapDetails",
+    "topLevelInstanceKUID": "m1385ece09984d05bd38940ce4bca548",
+    "wType": "Image"
+}

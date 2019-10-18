@@ -1,0 +1,39 @@
+{
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5401687b43146db9526d0b13420dc00",
+    "_srcKuid_": "00a452d8b1524bb5ac73b1211b6c7d9e",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "children": [
+        "imgBack",
+        "lblHdr",
+        "tbxKeyword",
+        "imgAdd"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flexAddKeywordSubSection"
+    },
+    "id": "flexAddKeywordSubSection",
+    "instanceOf": "00a452d8b1524bb5ac73b1211b6c7d9e",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m092479f81de4734b49e127858f41a79",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexAddNewKeywords",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "mb4e523c6bf348e68f9671a97e399100",
+    "wType": "FlexContainer"
+}

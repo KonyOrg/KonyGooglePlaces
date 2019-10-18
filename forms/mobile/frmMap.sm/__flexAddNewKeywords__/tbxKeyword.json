@@ -1,0 +1,36 @@
+{
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s717c19307f8420eba94afcf3fe846c4",
+    "_srcKuid_": "2833cd131dba43f6a8041d3b86ec4b41",
+    "_top_": {
+        "type": "number",
+        "value": "50"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "context": {},
+    "dataDiffs": {
+        "id": "tbxKeyword"
+    },
+    "id": "tbxKeyword",
+    "instanceOf": "2833cd131dba43f6a8041d3b86ec4b41",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m8b1af1ed1b74090bfac1665fbcf00af",
+    "masterInstance": true,
+    "name": "kony.ui.TextBox2",
+    "parent": "flexAddKeywordSubSection",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "mb4e523c6bf348e68f9671a97e399100",
+    "wType": "TextField"
+}

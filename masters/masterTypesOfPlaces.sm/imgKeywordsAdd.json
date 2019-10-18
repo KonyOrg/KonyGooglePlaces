@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_skin_": "sed5ec8984284bb58e4e002e086c88e4",
+    "_src_": "icon_add_keyword_01.png",
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "ma9f48b4ddcc4d74b17cdf4415ff0247"
+    ],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "android",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgKeywordsAdd",
+    "ide_onTouchEnd": "AS_Image_15777e23d27342d19472866f826de1b3",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "28596d8800af4cd4b34dcbe76529d2d0",
+    "name": "kony.ui.Image2",
+    "parent": "flexKeywordsAdd",
+    "pf": "masterTypesOfPlaces",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

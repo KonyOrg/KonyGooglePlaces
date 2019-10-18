@@ -1,0 +1,46 @@
+{
+    "AS_Image_6497adcf538c4fbdb8d30989aec5426f": {
+        "id": "AS_Image_6497adcf538c4fbdb8d30989aec5426f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMapDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5faa3ac583c847beb8788aef0234ff4c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____2a26e25bf1e440efb9a441f0dea6d8c4",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Image_79080e13a823484594c186558f5fe0d1",
+            "display": "actionSearchAndDrawRoutes",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject",
+                "value": "  eventobject"
+            }, {
+                "datatype": "string",
+                "name": "x",
+                "value": ""
+            }, {
+                "datatype": "string",
+                "name": "y",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "isMasterInstanceAction": null
+        }]
+    }
+}

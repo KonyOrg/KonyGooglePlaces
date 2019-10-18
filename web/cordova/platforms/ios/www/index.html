@@ -1,0 +1,22 @@
+<html>
+<head>
+   <title>phonegaptut</title>
+   <script src="cordova.js"></script>
+   <script>
+     function voicerec() {
+     var maxMatches = 1;
+     var promptString = "Speak now"; // optional
+     var language = "en-US";         // optional
+     window.plugins.speechrecognizer.startRecognize(function(result){
+                alert(result);
+                }, function(errorMessage){
+                    console.log("Error message: " + errorMessage);
+                }, maxMatches, promptString, language);
+            }
+
+   </script>
+</head> 
+<body > 
+    <button onclick="voicerec">Voice</button> 
+</body> 
+<html>

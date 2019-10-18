@@ -1,0 +1,28 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2438b52bb994c76b5e7571c4b6873b3",
+    "_srcKuid_": "7b097d37c95c40d59bb1f37f2463c587",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "context": {},
+    "dataDiffs": {
+        "id": "lblHdr"
+    },
+    "id": "lblHdr",
+    "instanceOf": "7b097d37c95c40d59bb1f37f2463c587",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mb036163c5674cc7b873445d8967a33b",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flexAddKeywordSubSection",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "mb4e523c6bf348e68f9671a97e399100",
+    "wType": "Label"
+}

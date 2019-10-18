@@ -1,0 +1,38 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.speech.speechrecognition": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/macdonst/SpeechRecognitionPlugin",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "MICROPHONE_USAGE_DESCRIPTION": " "
+        }
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-speechrecognizer": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/poiuytrez/SpeechRecognizer",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf843348077d445291364f41ebd75f41",
+    "_srcKuid_": "d7ad6ab5b316488c80f3adec68d038a0",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "children": [
+        "flexKeywordsAdd",
+        "flexLine",
+        "segTypesOfPlaces"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flexTypesOfPlacesMenu"
+    },
+    "id": "flexTypesOfPlacesMenu",
+    "instanceOf": "d7ad6ab5b316488c80f3adec68d038a0",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m24fdd8bc7ad4a2bb6ba18d08c95253d",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexTypesOfPlaces",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "m95a26f5642a4055b8861509ff61469d",
+    "wType": "FlexContainer"
+}

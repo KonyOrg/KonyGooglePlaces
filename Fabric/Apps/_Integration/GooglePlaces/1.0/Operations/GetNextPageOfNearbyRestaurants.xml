@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="GetNextPageOfNearbyRestaurants" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://maps.googleapis.com/maps/api/nearbysearch/json?key=$key&amp;pagetoken=$pagetoken"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false"/>
+        <param datatype="string" defaultvalue="AIzaSyBaTQhPCIymj63J_BCknU4mEi1cN92hiB8" description="" encode="false" format="None" formatvalue="" name="key" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="AIzaSyBaTQhPCIymj63J_BCknU4mEi1cN92hiB8" value="AIzaSyBaTQhPCIymj63J_BCknU4mEi1cN92hiB8">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="pagetoken" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="CpQFhwIAAHjTtlpUJ4VfhpfU2YBnxTRDDdv3qNuEh_jeIRKOMrvsYUDiNP4xyAHet57CZ1PP5iammTkl6YgO6Uq5yCKaZHJFXZrGMwVLvd372d3dvROkc7PFfR7HLpomVFEde5DYZ_5gU6FukllIHEGkOjVqum7hniEM8Ib2fqWobaEp7SFBI0GiT16U8Y40elnW0qiNZHr8pl2Wfe3B3MYZv4ich3hPQC7cpTHcIBgMFFVgGkTku01ToDAz80WMMXYHjbyQ7X2dpkTwdSDjMxnAStDbxekyCo7oR3weD54P2bDf0U5x38-XAgnsjuiE_lqyOVzQr72CFJO7u-BiYcw5cc6I51DGJCwhA3BKbUoCsGR-7SFmUknY3q5uWosAAgk0dB_jFMp-pABkrAMly9q6Y5dUQmCU7YNHqVftAFlTRnSeZUDl4q7FGubf6igSDZYC0kDICj4mMtZBLHmcI9ufE2xbS04ph9fAEhUmmnffxRN7gvIO4jfwLEcBl0ucQyxQjvmUrrmIgJLTaYih4tikHvyIqzHSav4Hc1BUwGxfszy4_AoOhtlTqk4mK4gPE0MKP4DstNBJ2xtKnyqBdAq-BISuNIupnZCXKAAOaoPN34gfvlwmKV5MO-tPEkKdK_RWzNmbnMWbfJnSwbvZj6H-45vPM7xZpWXUy8YV9GcRf76DcR9Z1AIvpDnLf66NSwvaMRiVkeG3Tw5Gwfug9G6A0b0-0yxyBtN6DlhRuRYO6VaObBGWHrIXWM65eC5J5ByzHZmfxon7rINIw6Ff3F_hXN7dhwLust5ls0yA2GOHmfbSV8echz0PUUj7n_d69HOD_7MfIqoNVaM9dX9l29KPBd2Ce6zOa58zHADxzfRge2_FMVS1EhC1gyUuLGVUHyuAMSp5gZlFGhQFJlMAgS473yMiOeI4cO5v69WKyQ" value="">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset id="results" order="" paramOrder="0" parentOrder="0" src="/results">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="photo_reference" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="//photo_reference" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="place_id" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/place_id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="address" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/vicinity" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="rating" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/rating" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="next_page_token" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="/next_page_token" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

@@ -1,0 +1,57 @@
+{
+    "active": 1,
+    "comments": {
+        "b52d26f116d54eb9a08f2ba05d373ec6": {
+            "5c0d-5c8c-9c7c-f0ed-0a6f-341c": {
+                "commentId": "5c0d-5c8c-9c7c-f0ed-0a6f-341c",
+                "widgetId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "formId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "createdOn": 1477567529000,
+                "createdById": "b6efce22-7c97-42b8-a8b5-92760b0fdc53",
+                "createdBy": "kalyani gurrapu",
+                "createdByEmail": "kalyani.gurrapu@kony.com",
+                "lastModifiedTime": 1477567529000,
+                "comment": "ghfv",
+                "commentSrc": "functional preview",
+                "active": 1,
+                "channel": "mobile"
+            },
+            "b8d6-0b21-28da-f88c-8275-e614": {
+                "commentId": "b8d6-0b21-28da-f88c-8275-e614",
+                "widgetId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "formId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "createdOn": 1483001315000,
+                "createdById": "6f3fda19-06fc-40cc-b97f-6bdccfc8e232",
+                "createdBy": "sabitha popuri",
+                "createdByEmail": "sabitha.popuri@kony.com",
+                "lastModifiedTime": 1483001315000,
+                "comment": "vjvkbi",
+                "commentSrc": "functional preview",
+                "active": 1,
+                "channel": "mobile"
+            },
+            "8f65-54e3-038f-d1a6-bf1a-e6a3": {
+                "commentId": "8f65-54e3-038f-d1a6-bf1a-e6a3",
+                "widgetId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "formId": "b52d26f116d54eb9a08f2ba05d373ec6",
+                "createdOn": 1490249134000,
+                "createdById": "3727ef91-93e0-4195-ab5a-902bb5e53273",
+                "createdBy": "App Testing",
+                "createdByEmail": "apptesting@kony.com",
+                "lastModifiedTime": 1490249134000,
+                "comment": "ho",
+                "commentSrc": "functional preview",
+                "active": 1,
+                "channel": "mobile"
+            }
+        }
+    },
+    "projectGuid": "acecbcfc-ce91-46d4-968b-2a054b29c65a",
+    "accountGuid": "dde09d15-b97d-4af6-b9ce-01133e3979f3",
+    "prototypeGuid": "GZLZI",
+    "id": "b52d26f116d54eb9a08f2ba05d373ec6",
+    "channel": "mobile",
+    "createdOn": 1477924154609,
+    "noteGuid": "fc40803c-6302-4b24-b91d-2229434f50ab",
+    "synced_on": "2019-10-18T18:11:54.472Z"
+}

@@ -1,0 +1,28 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sed5ec8984284bb58e4e002e086c88e4",
+    "_srcKuid_": "f4b6fb8e73bd479bb083e2cef1165e8a",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "context": {},
+    "dataDiffs": {
+        "id": "imgLogo"
+    },
+    "id": "imgLogo",
+    "instanceOf": "f4b6fb8e73bd479bb083e2cef1165e8a",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m9274eb65c994ee28c43c9a6d95f88a0",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flexHdr1",
+    "pf": "frmMap",
+    "topLevelInstanceKUID": "m2a9fa74078941cd9220a95b223e3139",
+    "wType": "Image"
+}

@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sed5ec8984284bb58e4e002e086c88e4",
+    "_src_": "icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "masterProgressIndicator",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgLoadingIndicator",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "cb7f9cbffcc64dd0b9a4018783ed5c6f",
+    "name": "kony.ui.Image2",
+    "parent": "flexProgressIndicator",
+    "pf": "masterProgressIndicator",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

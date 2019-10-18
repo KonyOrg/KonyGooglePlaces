@@ -1,0 +1,34 @@
+{
+    "AS_Segment_58128cf828714de8a2ffced440eb922e": {
+        "id": "AS_Segment_58128cf828714de8a2ffced440eb922e",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionShowRouteDetails",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMapDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5faa3ac583c847beb8788aef0234ff4c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f054b7d973704eab8b2ac15f606a55ba",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showRouteDetails",
+            "display": "showRouteDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "source": "module"
+        }]
+    }
+}

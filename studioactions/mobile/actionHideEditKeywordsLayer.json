@@ -1,0 +1,34 @@
+{
+    "AS_Image_6612c1d8502946248ad86d3c410434d8": {
+        "id": "AS_Image_6612c1d8502946248ad86d3c410434d8",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionHideEditKeywordsLayer",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b52d26f116d54eb9a08f2ba05d373ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9559d3c23d6f44e38d64ec2ca0bc5833",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hideEditKeywordsLayer",
+            "display": "hideEditKeywordsLayer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "AS_Image_15777e23d27342d19472866f826de1b3": {
+        "id": "AS_Image_15777e23d27342d19472866f826de1b3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "masterTypesOfPlaces",
+            "type": "masters",
+            "KUID": "021ed6f61d4b40ccb71d69abb3a24234"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c5ae01677df94ca7af50939723a206e7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showEditKeywordsLayer",
+            "display": "showEditKeywordsLayer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "source": "module"
+        }]
+    }
+}

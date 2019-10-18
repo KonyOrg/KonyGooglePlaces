@@ -1,0 +1,36 @@
+{
+    "AS_Map_e6df868ac3124d0387c1cc719c044ee0": {
+        "id": "AS_Map_e6df868ac3124d0387c1cc719c044ee0",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionOnSelectionForMap",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b52d26f116d54eb9a08f2ba05d373ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___8163874d425041d1befbe3afcb5db5db",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onSelectionCallbackForMap",
+            "display": "onSelectionCallbackForMap",
+            "inputparams": [{
+                "name": "mapID",
+                "value": " eventobject"
+            }, {
+                "name": "locationData",
+                "value": " location"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

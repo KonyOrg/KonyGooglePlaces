@@ -1,0 +1,1920 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "food.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Food"
+            },
+            "skin": {
+                "text": "sknFlex21"
+            },
+            "type": {
+                "text": "restaurant"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bar.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bar"
+            },
+            "skin": {
+                "text": "sknFlex20"
+            },
+            "type": {
+                "text": "bar"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "atm.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ATM"
+            },
+            "skin": {
+                "text": "sknFlex21"
+            },
+            "type": {
+                "text": "atm"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "airport.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Airport"
+            },
+            "skin": {
+                "text": "sknFlex9"
+            },
+            "type": {
+                "text": "airport"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bank.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bank"
+            },
+            "skin": {
+                "text": "sknFlex21"
+            },
+            "type": {
+                "text": "bank"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "beauty_salon.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Beauty salon"
+            },
+            "skin": {
+                "text": "sknFlex13"
+            },
+            "type": {
+                "text": "beauty_salon"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "book_store.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Book Store"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "book_store"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bus_station.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bus Station"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "bus_station"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cafe.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Cafe"
+            },
+            "skin": {
+                "text": "sknFlex16"
+            },
+            "type": {
+                "text": "cafe"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_repair.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Car Repair"
+            },
+            "skin": {
+                "text": "sknFlex17"
+            },
+            "type": {
+                "text": "car_repair"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "car_wash.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Car Wash"
+            },
+            "skin": {
+                "text": "sknFlex17"
+            },
+            "type": {
+                "text": "car_wash"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "church.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Church"
+            },
+            "skin": {
+                "text": "sknFlex9"
+            },
+            "type": {
+                "text": "church"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "clothing_store.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Clothing Store"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "clothing_store"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dentist.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dentist"
+            },
+            "skin": {
+                "text": "sknFlex9"
+            },
+            "type": {
+                "text": "dentist"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "department_store.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department Store"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "department_store"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "doctor.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Doctor"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "doctor"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "electronics_store.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Electronics Store"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "electronics_store"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "florist.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Florist"
+            },
+            "skin": {
+                "text": "sknFlex12"
+            },
+            "type": {
+                "text": "florist"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "gas_station.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Gas Station"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "gas_station"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "grocery.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Grocery"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "grocery_or_supermarket"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "hindu_temple.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hindu Temple"
+            },
+            "skin": {
+                "text": "sknFlex21"
+            },
+            "type": {
+                "text": "hindu_temple"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "hospital.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hospital"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "hospital"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "library.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Library"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "library"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "liquor_store.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Liquor Store"
+            },
+            "skin": {
+                "text": "sknFlex20"
+            },
+            "type": {
+                "text": "liquor_store"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lodging.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lodging"
+            },
+            "skin": {
+                "text": "sknFlex20"
+            },
+            "type": {
+                "text": "lodging"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "movie_theatre.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Movie Theatre"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "movie_theater"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "museum.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Museum"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "museum"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "night_club.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Night Club"
+            },
+            "skin": {
+                "text": "sknFlex20"
+            },
+            "type": {
+                "text": "night_club"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "park.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Park"
+            },
+            "skin": {
+                "text": "sknFlex8"
+            },
+            "type": {
+                "text": "park"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "parking.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Parking"
+            },
+            "skin": {
+                "text": "sknFlex21"
+            },
+            "type": {
+                "text": "parking"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pharmacy.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pharmarcy"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "pharmacy"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "police.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Police"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "police"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "post_office.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Post Office"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "post_office"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "restaurant.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Restaurant"
+            },
+            "skin": {
+                "text": "sknFlex9"
+            },
+            "type": {
+                "text": "restaurant"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "shopping_mall.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shopping Mall"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "shopping_mall"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "spa.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Spa"
+            },
+            "skin": {
+                "text": "sknFlex13"
+            },
+            "type": {
+                "text": "spa"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "stadium.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stadium"
+            },
+            "skin": {
+                "text": "sknFlex8"
+            },
+            "type": {
+                "text": "stadium"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "subway_station.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Subway Station"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "subway_station"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "taxi_stand.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Taxi Stand"
+            },
+            "skin": {
+                "text": "sknFlex15"
+            },
+            "type": {
+                "text": "taxi_stand"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "theatre.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Theatre"
+            },
+            "skin": {
+                "text": "sknFlex18"
+            },
+            "type": {
+                "text": "movie_theater"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "train_station.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Train Station"
+            },
+            "skin": {
+                "text": "sknFlex14"
+            },
+            "type": {
+                "text": "train_station"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "travel_agency.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Travel Agency"
+            },
+            "skin": {
+                "text": "sknFlex8"
+            },
+            "type": {
+                "text": "travel_agency"
+            }
+        },
+        {
+            "imgSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "imgTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "zoo.png"
+            },
+            "lblTypeOfPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Zoo"
+            },
+            "skin": {
+                "text": "sknFlex8"
+            },
+            "type": {
+                "text": "zoo"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "childInstances": [
+        "m3d81917c198412bb41b4a222cd8fc45"
+    ],
+    "containerweight": 100,
+    "counter": "711",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "hiddencolumns": {
+        "skin": "text",
+        "type": "text"
+    },
+    "id": "segTypesOfPlacesEdit",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "f8af1e2561514015bfe129cad20b6f0a",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Bank"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "atm.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "ATM"
+                        },
+                        "skin": {
+                            "text": "sknFlex21"
+                        },
+                        "type": {
+                            "text": "atm"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "bank.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Bank"
+                        },
+                        "skin": {
+                            "text": "sknFlex21"
+                        },
+                        "type": {
+                            "text": "bank"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Bar & Restaurant"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "food.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Food"
+                        },
+                        "skin": {
+                            "text": "sknFlex21"
+                        },
+                        "type": {
+                            "text": "restaurant"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "bar.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Bar"
+                        },
+                        "skin": {
+                            "text": "sknFlex20"
+                        },
+                        "type": {
+                            "text": "bar"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "restaurant.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Restaurant"
+                        },
+                        "skin": {
+                            "text": "sknFlex9"
+                        },
+                        "type": {
+                            "text": "restaurant"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Entertainment"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "movie_theatre.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Movie Theatre"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "movie_theater"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "night_club.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Night Club"
+                        },
+                        "skin": {
+                            "text": "sknFlex20"
+                        },
+                        "type": {
+                            "text": "night_club"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "park.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Park"
+                        },
+                        "skin": {
+                            "text": "sknFlex8"
+                        },
+                        "type": {
+                            "text": "park"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "theatre.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Theatre"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "theatre"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "zoo.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Zoo"
+                        },
+                        "skin": {
+                            "text": "sknFlex8"
+                        },
+                        "type": {
+                            "text": "zoo"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Health & Beaty"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "beauty_salon.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Beauty salon"
+                        },
+                        "skin": {
+                            "text": "sknFlex13"
+                        },
+                        "type": {
+                            "text": "beaty_salon"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "dentist.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Dentist"
+                        },
+                        "skin": {
+                            "text": "sknFlex9"
+                        },
+                        "type": {
+                            "text": "dentist"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "doctor.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Doctor"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "doctor"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "hospital.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Hospital"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "hospital"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "pharmacy.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Pharmarcy"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "pharmarcy"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "spa.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Spa"
+                        },
+                        "skin": {
+                            "text": "sknFlex13"
+                        },
+                        "type": {
+                            "text": "spa"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Holy Place"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "church.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Church"
+                        },
+                        "skin": {
+                            "text": "sknFlex9"
+                        },
+                        "type": {
+                            "text": "church"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "hindu_temple.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Hindu Temple"
+                        },
+                        "skin": {
+                            "text": "sknFlex21"
+                        },
+                        "type": {
+                            "text": "hindu_temple"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Shopping"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "book_store.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Book Store"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "book_store"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "clothing_store.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Clothing Store"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "clothing_store"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "department_store.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Department Store"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "department_store"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "electronics_store.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Electronics Store"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "electronics_store"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "grocery.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Grocery"
+                        },
+                        "skin": {
+                            "text": "sknFlex18"
+                        },
+                        "type": {
+                            "text": "grocery_or_supermarket"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "shopping_mall.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Shopping Mall"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "shopping_mall"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Travel"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "airport.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Airport"
+                        },
+                        "skin": {
+                            "text": "sknFlex9"
+                        },
+                        "type": {
+                            "text": "airport"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "bus_station.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Bus Station"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "bus_station"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "taxi_stand.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Taxi Stand"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "taxi_stand"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "train_station.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Train Station"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "train_station"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "travel_agency.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Travel Agency"
+                        },
+                        "skin": {
+                            "text": "sknFlex8"
+                        },
+                        "type": {
+                            "text": "travel_agency"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdrCategory": {},
+                    "flexSegTypesOfPlaces": {},
+                    "imgSearch": {},
+                    "imgTypeOfPlace": {},
+                    "lblHdrCategory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Others"
+                    },
+                    "lblTypeOfPlace": {}
+                },
+                [
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "car_repair.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Car Repair"
+                        },
+                        "skin": {
+                            "text": "sknFlex17"
+                        },
+                        "type": {
+                            "text": "car_repair"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "car_wash.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Car Wash"
+                        },
+                        "skin": {
+                            "text": "sknFlex17"
+                        },
+                        "type": {
+                            "text": "car_wash"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "florist.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Florist"
+                        },
+                        "skin": {
+                            "text": "sknFlex12"
+                        },
+                        "type": {
+                            "text": "florist"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "gas_station.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Gas Station"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "gas_station"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "library.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Library"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "library"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "lodging.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Lodging"
+                        },
+                        "skin": {
+                            "text": "sknFlex20"
+                        },
+                        "type": {
+                            "text": "lodging"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "museum.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Museum"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "museum"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "parking.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Parking"
+                        },
+                        "skin": {
+                            "text": "sknFlex21"
+                        },
+                        "type": {
+                            "text": "parking"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "police.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Police"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "police"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "post_office.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Post Office"
+                        },
+                        "skin": {
+                            "text": "sknFlex14"
+                        },
+                        "type": {
+                            "text": "post_office"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "stadium.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Stadium"
+                        },
+                        "skin": {
+                            "text": "sknFlex8"
+                        },
+                        "type": {
+                            "text": "stadium"
+                        }
+                    },
+                    {
+                        "imgSearch": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Button"
+                        },
+                        "imgTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "subway_station.png"
+                        },
+                        "lblTypeOfPlace": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Subway Station"
+                        },
+                        "skin": {
+                            "text": "sknFlex15"
+                        },
+                        "type": {
+                            "text": "subway_station"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "e566fce4a8f74f55b1cacf3c861b18b3",
+        "rowtemplate": "flexSegTypesOfPlaces",
+        "sectionHeaderTemplateId": "9d72cb47cee74b57a418ad89319a1e52",
+        "sectionheadertemplate": "flexSegHdrCategory",
+        "widgetdatamap": {
+            "flexSegHdrCategory": "flexSegHdrCategory",
+            "flexSegTypesOfPlaces": "flexSegTypesOfPlaces",
+            "imgSearch": "imgSearch",
+            "imgTypeOfPlace": "imgTypeOfPlace",
+            "lblHdrCategory": "lblHdrCategory",
+            "lblTypeOfPlace": "lblTypeOfPlace"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexAddNewKeywords",
+    "pf": "masterAddKeywordSubSection",
+    "retainselection": false,
+    "rowTemplateId": "e566fce4a8f74f55b1cacf3c861b18b3",
+    "rowcounter": 11,
+    "rowfocusskin": "sa0ab71245774d7d8c3c0e8d030dd265",
+    "rowskin": "sb7892341d094d50927c962d3fc9860c",
+    "rowtemplate": "flexSegTypesOfPlaces",
+    "screenlevelwidget": false,
+    "seccounter": 7,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s8c86f90cfaa40998e20febdfdcc82e7",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexSegHdrCategory": "flexSegHdrCategory",
+        "flexSegTypesOfPlaces": "flexSegTypesOfPlaces",
+        "imgSearch": "imgSearch",
+        "imgTypeOfPlace": "imgTypeOfPlace",
+        "lblHdrCategory": "lblHdrCategory",
+        "lblTypeOfPlace": "lblTypeOfPlace"
+    },
+    "widgetskin": "sfff2487e1b740389aa1c2291d53aa71"
+}

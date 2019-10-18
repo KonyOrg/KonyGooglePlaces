@@ -1,0 +1,47 @@
+{
+    "__parentReadjusting__": false,
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_srcKuid_": "f8af1e2561514015bfe129cad20b6f0a",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "context": {},
+    "counter": "042",
+    "dataDiffs": {
+        "id": "segTypesOfPlacesEdit"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "id": "segTypesOfPlacesEdit",
+    "instanceOf": "f8af1e2561514015bfe129cad20b6f0a",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m3d81917c198412bb41b4a222cd8fc45",
+    "masterInstance": true,
+    "name": "kony.ui.SegmentedUI2",
+    "parent": "flexAddNewKeywords",
+    "pf": "frmMap",
+    "rowcounter": 42,
+    "seccounter": 0,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "topLevelInstanceKUID": "mb4e523c6bf348e68f9671a97e399100",
+    "wType": "Segment",
+    "widgetdatamap": {
+        "flexSegHdrCategory": "flexSegHdrCategory",
+        "flexSegTypesOfPlaces": "flexSegTypesOfPlaces",
+        "imgSearch": "imgSearch",
+        "imgTypeOfPlace": "imgTypeOfPlace",
+        "lblHdrCategory": "lblHdrCategory",
+        "lblTypeOfPlace": "lblTypeOfPlace"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "AS_Button_ade9b188edc948b1b55b947fa7b3b4ae": {
+        "id": "AS_Button_ade9b188edc948b1b55b947fa7b3b4ae",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionOnClickButtonInRowSegment",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tplSegTypesOfPlaces",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e566fce4a8f74f55b1cacf3c861b18b3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e98d102396f9474abd2a82ae0c333a2d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteKeywordFromTypesOfPlaces",
+            "display": "deleteKeywordFromTypesOfPlaces",
+            "inputparams": [{
+                "name": "context",
+                "value": " context"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

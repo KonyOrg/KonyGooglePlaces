@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-63%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sba85a72f20948949e17db5f63f616c7",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "childInstances": [
+        "m95a26f5642a4055b8861509ff61469d"
+    ],
+    "children": [
+        "flexTypesOfPlacesMenu",
+        "flexTypesOfPlacesOpen",
+        "flexTypesOfPlacesClose"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexTypesOfPlaces",
+    "info": null,
+    "isvisible": true,
+    "kuid": "mfa333ac7ac14cf093a700b1e1a7761e",
+    "layouttype": 2,
+    "masterTopLevelFlex": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "masterTypesOfPlaces",
+    "pf": "masterTypesOfPlaces",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

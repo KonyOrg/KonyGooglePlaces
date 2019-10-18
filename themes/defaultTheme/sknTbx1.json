@@ -1,0 +1,97 @@
+{
+  "android": {
+    "font_name": "helvetica-neue-ultra-light",
+    "font_size": 125,
+    "isForked": false
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "282828ff",
+  "border_style": "rc",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "02abffff",
+  "font_name": "Helvetica",
+  "font_size": 125,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "AppleSDGothicNeo-Light",
+    "font_size": 125,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "GenericMonospace",
+    "font_size": 125,
+    "isForked": false
+  },
+  "kuid": "s717c19307f8420eba94afcf3fe846c4",
+  "spaan": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "wType": "TextField",
+  "watchos": {
+    "font_name": "Helvetica",
+    "font_size": 125,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "GenericMonospace",
+    "font_size": 125,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "GenericMonospace",
+    "font_size": 125,
+    "isForked": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Image_a308cc0f114e497a86608acb76ebdd1c": {
+        "id": "AS_Image_a308cc0f114e497a86608acb76ebdd1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "masterAddKeywordSubSection",
+            "type": "masters",
+            "KUID": "55157bd02c8b4321ad2e2ca60c5d7d27"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___1fdc802aa22e433da2615cdc1f7d29b2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hideEditKeywordsLayer",
+            "display": "hideEditKeywordsLayer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

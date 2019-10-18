@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_794103456eac454bbfba67c41f9f781f": {
+        "id": "AS_FlexContainer_794103456eac454bbfba67c41f9f781f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "masterListOfPlaces",
+            "type": "masters",
+            "KUID": "b6cac035981945deaf317b170ff919b4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___76247740c21d40bb90f7b3be52b25582",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openAnimationForFlexListOfPlaces",
+            "display": "openAnimationForFlexListOfPlaces",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "AS_Segment_3711457cc0fa4c62affc1d00e2245022": {
+        "id": "AS_Segment_3711457cc0fa4c62affc1d00e2245022",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b52d26f116d54eb9a08f2ba05d373ec6"
+        },
+        "sourceObj": {
+            "itemKUID": "021ed6f61d4b40ccb71d69abb3a24234",
+            "widgetKUID": "1011fb61454b4f0d9d78dcd3d9228eec",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____cbb0b742210f4b4cbd2e7bb2a6c097a1",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_ffd12390afd94083a19f32b1f0dfa735",
+            "display": "<>",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject"
+            }, {
+                "datatype": "number",
+                "name": "sectionNumber"
+            }, {
+                "datatype": "number",
+                "name": "rowNumber"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

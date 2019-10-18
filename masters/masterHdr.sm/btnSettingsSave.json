@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_skin_": "s74bae79c60746cca859386d3cd5c2ab",
+    "_text_": "Save",
+    "_top_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m2f069956f7140879e9281850d972c8c",
+        "mfef5e934d3c4ef19740040d39227b14"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s74bae79c60746cca859386d3cd5c2ab",
+    "id": "btnSettingsSave",
+    "ide_onClick": "AS_Button_86bf17cf637a4b1e8f4fa5de44117705",
+    "info": null,
+    "isvisible": false,
+    "kuid": "a0f8fbdf5d664ed89bdf24e7d91edca1",
+    "name": "kony.ui.Button",
+    "parent": "flexHdr",
+    "pf": "masterHdr",
+    "wType": "Button",
+    "zindex": 1
+}

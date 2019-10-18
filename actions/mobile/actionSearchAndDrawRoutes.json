@@ -1,0 +1,36 @@
+{
+    "AS_Image_79080e13a823484594c186558f5fe0d1": {
+        "id": "AS_Image_79080e13a823484594c186558f5fe0d1",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionSearchAndDrawRoutes",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMapDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "5faa3ac583c847beb8788aef0234ff4c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a61fc6c79bd2441d9cfa2a01025d5e94",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "searchAndDrawRoutes",
+            "display": "searchAndDrawRoutes",
+            "inputparams": [{
+                "name": "eventObject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

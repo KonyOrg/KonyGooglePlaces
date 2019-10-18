@@ -1,0 +1,25 @@
+{
+    "AS_Button_86bf17cf637a4b1e8f4fa5de44117705": {
+        "id": "AS_Button_86bf17cf637a4b1e8f4fa5de44117705",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "masterHdr",
+            "type": "masters",
+            "KUID": "b86ffcdbf3314e8893af9294f2a2cc27"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___da04d3c145a543a1bbe3711d42a666af",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setAppSettings",
+            "display": "setAppSettings",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
