@@ -5,7 +5,7 @@
  */
 
 // settings = {distanceUnits:"km" or "mi", mapType:"normal" or "satellite", searchOrder:"distance" or "prominence"}
-settings = {distanceUnits:"km", mapType:"normal", searchOrder:"distance"};
+settings = {distanceUnits:"km", mapType:"normal", searchOrder:"prominence"};
 gblStringToSeachFor = "";
 
 /**
@@ -19,14 +19,10 @@ gblStringToSeachFor = "";
 
 mobileFabricConfiguration = 
 	{
-		appKey:"94de2f698e2a951771ba7a3c07503993", 
-		appSecret:"66d138c454b7b4416e47f0345136804a", 
+		appKey:"cb475ab59b298359a7ec4fb321367cc2", 
+		appSecret:"684bba3e6467763f2258eb05ffe45761", 
 		serviceURL:"https://100000507.auth.konycloud.com/appconfig",
-		
-  		//appKey:"f71360497a585e00b2dc76a277b9fed", 
-		//appSecret:"c56cb9ea82e592dd6f97b74bb00f9993", 
-		//serviceURL:"http://kh177.kitspl.com:8585/authService/100000002/appconfig",
-		
+				
   		services: 
 		[
 			{
@@ -119,7 +115,7 @@ function getCurrentPositionSuccessCallback (position)
       if(selData.type !== "custom"){
           operationName = mobileFabricConfiguration.services[0].operations[0];
           if ("distance" === settings.searchOrder)
-              data= {"latitude": ""+currentLatitude,"longitude": ""+currentLongitude,"rankby": settings.searchOrder,"type":selData.type};
+              data= {"latitude": ""+currentLatitude,"longitude": ""+currentLongitude,"rankby": settings.searchOrder,"type":selData.type, "radius":5000};
           if ("prominence" === settings.searchOrder)
               data= {"latitude": ""+position.coords.latitude,"longitude": ""+position.coords.longitude,"rankby": settings.searchOrder,"type":selData.type, "radius":5000};
         }
@@ -127,6 +123,8 @@ function getCurrentPositionSuccessCallback (position)
         operationName = mobileFabricConfiguration.services[0].operations[3];
         data= {"latitude": ""+position.coords.latitude,"longitude": ""+position.coords.longitude,"query": selData.lblTypeOfPlace.text, "radius":5000};
       }
+		kony.print (" ********** In getCurrentPositionSuccessCallback: operationName: "+operationName);
+		kony.print (" ********** In getCurrentPositionSuccessCallback: data: "+JSON.stringify(data));
       	mobileFabricConfiguration.integrationObj.invokeOperation(operationName, headers, data, fetchPlacesSuccessCallback, fetchPlacesErrorCallback);
 	}
 	else
@@ -188,12 +186,14 @@ function fetchPlacesSuccessCallback (placesDetails)
           gblPlacesDetails.placeSearchResults[i].pinImage = image;
           gblPlacesDetails.placeSearchResults[i].image = {source: pinImage, sourceType: kony.map.PIN_IMG_SRC_TYPE_IMAGE, anchor: kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER};
           gblPlacesDetails.placeSearchResults[i].calloutData = {"lblPlaceName":placesDetails.placeSearchResults[i].name, "lblPlaceAddress":placesDetails.placeSearchResults[i].vicinity};
+          gblPlacesDetails.placeSearchResults[i].rating = parseFloat(gblPlacesDetails.placeSearchResults[i].rating).toFixed(2);
         }
 	  
         mobileFabricConfiguration.integrationObj = mobileFabricConfiguration.konysdkObject.getIntegrationService(mobileFabricConfiguration.services[0].service);
         var operationName = mobileFabricConfiguration.services[0].operations[1];
         var data = {"destinations": destinations,"originlng": currentLongitude,"originlat": currentLatitude, "units":settings.distanceUnits};
         var headers= {};
+		kony.print (" ********** In fetchPlacesSuccessCallback: "+JSON.stringify(data));
         mobileFabricConfiguration.integrationObj.invokeOperation(operationName, headers, data, fetchPlaceDistanceMatrixSuccessCallback, fetchPlaceDistanceMatrixErrorCallback);
       }
       else
@@ -257,7 +257,7 @@ function fetchPlaceDistanceMatrixSuccessCallback (placeDistanceMatrix)
       {
         gblPlacesDetails.placeSearchResults[i].distance = placeDistanceMatrix.placeDistanceMatrixResults[i].distance;
         gblPlacesDetails.placeSearchResults[i].calloutData.lblPlaceDistance = placeDistanceMatrix.placeDistanceMatrixResults[i].distance;
-        gblPlacesDetails.placeSearchResults[i].calloutData.lblPlaceRating = gblPlacesDetails.placeSearchResults[i].rating;
+        gblPlacesDetails.placeSearchResults[i].calloutData.lblPlaceRating = gblPlacesDetails.placeSearchResults[i].rating;//parseFloat().toFixed(2);
       }
       frmMap.map.locationData = gblPlacesDetails.placeSearchResults;      
       frmMap.flexListOfPlaces.segListOfPlaces.setData(gblPlacesDetails.placeSearchResults);
